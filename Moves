@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+/**
+ * Copyright © 2022. all right reserved.
+ * @author Judah Stasinos
+ */
+public class Moves {
+    ArrayList<String> namesOfMoves = new ArrayList<>();
+    int[] dmgOfMoves;
+    
+    public Moves() {
+        namesOfMoves.add("Tackle");
+        namesOfMoves.add("Flamethrower");
+        namesOfMoves.add("Pound");
+        namesOfMoves.add("Lightning");
+        namesOfMoves.add("");
+        
+    }
+    
+}
